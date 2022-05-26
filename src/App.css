@@ -11,7 +11,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Bellefair', serif;
+ 
 }
 .navbar{
   position: absolute;
@@ -31,7 +31,7 @@ nav .logo{
   width: 30px;
   position: absolute;
   top: 25%;
-  left: 8%;
+  left: 5%;
 }
 nav .logo img{
   height: 100%;
@@ -84,3 +84,52 @@ nav ul li .navlink{
   color: rgba(208,214,249);
   margin-left: 5px;
 }
+.overlay-text{
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  width: 390px;
+  
+}
+.overlay-text h5{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 23px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: rgba(208,214,249);
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+.overlay-text h2{
+  color: #fff;
+  font-size: 110px;
+  text-transform: uppercase;
+  font-family: 'Bellefair', serif;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.overlay-text p{
+  color: rgba(208,214,249);
+  font-size: 18px;
+  font-family: 'Barlow Condensed', sans-serif;
+  width: 330px;
+  
+}
+.explore{
+  position: absolute;
+  bottom: 20%;
+  right: 17%;
+  background-color: #fff;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Bellefair', serif;
+  text-transform: uppercase;
+}
+
+
