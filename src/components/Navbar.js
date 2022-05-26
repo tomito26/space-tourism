@@ -1,4 +1,5 @@
 import logo from '../logo.svg'
+import { NavLink } from 'react-router-dom';
 const  Navbar = () => {
     return(
         <div className="navbar">
@@ -8,10 +9,10 @@ const  Navbar = () => {
                 </div>
                 <div className='line'></div>
                 <ul>
-                    <li><a className='navlink' href="#home"><span>00</span><span>Home</span></a></li>
-                    <li><a className='navlink' href="#destination"><span>01</span><span>Destination</span></a></li>
-                    <li><a className='navlink' href="#crew"><span>02</span><span>Crew</span></a></li>
-                    <li><a className='navlink' href="#Technology"><span>03</span><span>Technology</span></a></li>
+                    <li><NavLink className='navlink' to="/"><span>00</span><span>Home</span></NavLink></li>
+                    <li><NavLink className='navlink' to="/destination"><span>01</span><span>Destination</span></NavLink></li>
+                    <li><NavLink className='navlink' to="/crew"><span>02</span><span>Crew</span></NavLink></li>
+                    <li><NavLink className='navlink' to="/technology"><span>03</span><span>Technology</span></NavLink></li>
                 </ul>
             </nav>
         </div>
