@@ -6,6 +6,8 @@ import Destination from './pages/Destination'
 import Crew from './pages/Crew';
 import Technology from './pages/Technology';
 import Moon from './components/Moon';
+import Mars from './components/Mars';
+import Europa from './components/Europa';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/destination' element={<Destination/>}>
           <Route path='/destination' element={<Moon/>} />
+          <Route path='mars' element={<Mars/>}/>
+          <Route path='europa' element={<Europa/>}/>
         </Route>
         <Route path='/crew' element={<Crew/>}/>
         <Route path='/technology' element={<Technology/>}/>
