@@ -157,7 +157,7 @@ nav ul li .navlink{
 }
 .destination-wrapper .header h4 span:first-child{
   color: rgba( 255, 255, 255, 0.25 );
-  margin-right: 10px;
+  margin-right: 20px;
   font-size: 18px;
   font-weight: 600;
 }
@@ -192,6 +192,10 @@ nav ul li .navlink{
   font-family: "Barlow Condensed", sans-serif;
   letter-spacing: 1.5px;
   font-size: 16px;
+}
+.wrapper li .link:hover{
+  border-bottom: 2px solid rgb(208,214,249);
+  padding-bottom: 5px;
 }
 .destination-1{
   width: 400px;
