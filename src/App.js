@@ -11,6 +11,7 @@ import Europa from './components/Europa';
 import Titan from './components/Titan';
 import LaunchVehicle from './components/LaunchVehicle';
 import Spaceport from './components/Spaceport';
+import Spacecapsule from './components/Spacecapsule';
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
         <Route path='/crew' element={<Crew/>}/>
         <Route path='/technology' element={<Technology/>}>
           <Route path='/technology' element={<LaunchVehicle/>} />
-          <Route path='/technology/2' element={<Spaceport/>}/>
+          <Route path='2' element={<Spaceport/>}/>
+          <Route path='3' element={<Spacecapsule/>}/>
         </Route>
       </Routes>
       

@@ -331,7 +331,7 @@ nav ul li .navlink{
   justify-content: space-between;
 }
 .tech-container .tech-description{
-  width: 400px;
+  width: 350px;
 }
 .tech-description h5{
   font-size: 15px;
@@ -352,7 +352,7 @@ nav ul li .navlink{
   margin-bottom: 10px;
 }
 .tech-description p{
-  width: 350px;
+  width: 290px;
   color: rgb(208,214,249);
   font-family: "Barlow Condensed",sans-serif;
   font-size: 15px;
@@ -360,7 +360,7 @@ nav ul li .navlink{
 }
 .tech-image{
   height: 360px;
-  width: 400px;
+  width: 420px;
   position: absolute;
   top: 36%;
   right: 0;
