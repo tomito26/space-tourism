@@ -110,6 +110,7 @@ nav ul li .navlink{
   font-family: 'Bellefair', serif;
   text-align: left;
   margin-bottom: 20px;
+  font-weight: 100;
 }
 .overlay-text p{
   color: rgb(208,214,249);
@@ -140,6 +141,9 @@ nav ul li .navlink{
   width: 100%;
   background-color: rgb(11, 13,23);
   background-image: url(./assets/Bitmap2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .destination .destination-wrapper{
   position: absolute;
@@ -240,6 +244,139 @@ nav ul li .navlink{
   font-family: 'Bellefair', serif;
 
 }
+/* // crew page  */
+.crew{
+  height: 100vh;
+  width: 100%;
+  background-image: url(./assets/crewBackground.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* // technology page  */
+.tech{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(./assets/tech.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+
+  
+}
+.tech-wrapper{
+  width: 100%;
+  margin-top: 100px;
+  margin-left: 220px;
+
+}
+.tech-wrapper h2{
+  font-size: 21px;
+  font-family: "Barlow Condensed",sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin-bottom: 150px;
+  letter-spacing: 2.5px;
+}
+.tech-wrapper h2 span:first-child{
+  color: rgba( 255, 255, 255, 0.25 );
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.launch-wrapper{
+  display: flex;
+}
+.launch-wrapper ul {
+  list-style: none;
+  margin-right: 50px;
+}
+.launch-wrapper ul li{
+  margin-bottom: 20px;
+  height: 50px;
+  width: 50px;
+  /* padding: 10px; */
+  border: 1px solid rgba( 255, 255, 255, 0.25 );
+  border-radius: 100%;
+  
+  
+}
+.launch-wrapper ul li .vehicle-link{
+  text-decoration: none;
+  color: #fff;
+  font-size: 19px;
+  font-family: 'Bellefair', serif;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.launch-wrapper ul li .vehicle-link:hover{
+  border: 1px solid #fff;
+  border-radius: 100%;
+}
+
+
+.tech-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.tech-container .tech-description{
+  width: 400px;
+}
+.tech-description h5{
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: "Barlow Condensed",sans-serif;
+  color: rgb(208,214,249);
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+
+}
+.tech-description h3{
+  font-family: 'Bellefair', serif;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.tech-description p{
+  width: 350px;
+  color: rgb(208,214,249);
+  font-family: "Barlow Condensed",sans-serif;
+  font-size: 15px;
+  line-height: 23px;  
+}
+.tech-image{
+  height: 360px;
+  width: 400px;
+  position: absolute;
+  top: 36%;
+  right: 0;
+
+   
+  
+}
+.tech-image img{
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  /* object-position: center; */
+  border: none;
+}
+
+
 
 
 

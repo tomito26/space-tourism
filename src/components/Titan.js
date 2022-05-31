@@ -7,7 +7,7 @@ const Titan = () =>{
             <img src={titan} alt="titan"/>
         </div>
         <div className="wrapper">
-        <DestinationLinks/>
+            <DestinationLinks/>
             <div className="destination-1">
                 <h1>Titan</h1>
                 <p className="description">
