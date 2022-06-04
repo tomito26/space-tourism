@@ -19,15 +19,15 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/destination' element={<Destination/>}>
-          <Route path='/destination' element={<Moon/>} />
+        <Route path='/destination/' element={<Destination/>}>
+          <Route path='/destination/' element={<Moon/>} />
           <Route path='mars' element={<Mars/>}/>
           <Route path='europa' element={<Europa/>}/>
           <Route path='titan' element={<Titan/>}/>
         </Route>
         <Route path='/crew' element={<Crew/>}/>
-        <Route path='/technology' element={<Technology/>}>
-          <Route path='/technology' element={<LaunchVehicle/>} />
+        <Route path='/technology/' element={<Technology/>}>
+          <Route path='/technology/' element={<LaunchVehicle/>} />
           <Route path='2' element={<Spaceport/>}/>
           <Route path='3' element={<Spacecapsule/>}/>
         </Route>

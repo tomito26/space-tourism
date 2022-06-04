@@ -90,13 +90,13 @@ nav ul li .navlink{
 .overlay-text{
   position: absolute;
   bottom: 20%;
-  left: 10%;
+  left: 17%;
   width: 390px;
   
 }
 .overlay-text h5{
   font-family: 'Barlow Condensed', sans-serif;
-  font-size: 23px;
+  font-size: 21px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
   color: rgb(208,214,249);
@@ -105,7 +105,7 @@ nav ul li .navlink{
 }
 .overlay-text h2{
   color: #fff;
-  font-size: 110px;
+  font-size: 95px;
   text-transform: uppercase;
   font-family: 'Bellefair', serif;
   text-align: left;
@@ -114,9 +114,10 @@ nav ul li .navlink{
 }
 .overlay-text p{
   color: rgb(208,214,249);
-  font-size: 18px;
+  font-size: 15px;
   font-family: 'Barlow Condensed', sans-serif;
-  width: 330px;
+  line-height: 23px;
+  width: 300px;
   
 }
 .explore{
@@ -214,6 +215,7 @@ nav ul li .navlink{
 .destination-1 .description{
   color: rgb(208,214,249);
   font-size: 15px;
+  line-height: 23px;
   font-family: "Barlow Condensed",sans-serif;
   margin-bottom: 30px;
   width: 290px;
@@ -281,7 +283,7 @@ nav ul li .navlink{
   color: #fff;
   text-transform: uppercase;
   font-weight: 100;
-  margin-bottom: 150px;
+  margin-bottom: 160px;
   letter-spacing: 2.5px;
 }
 .tech-wrapper h2 span:first-child{
@@ -292,6 +294,7 @@ nav ul li .navlink{
 }
 .launch-wrapper{
   display: flex;
+  margin-bottom: 30px;
 }
 .launch-wrapper ul {
   list-style: none;
