@@ -24,7 +24,7 @@ export const CrewData = [
     {
         occupation:"Flight Engineer",
         name:"Anousheh Ansari",
-        personal_details:"Anousheh Ansari is an Iranian American Engineer and the co-founder of Prodea Systems.Ansari was the fourth self-funded tourist, the first self-funded woman to fly to the ISS,and the first Iranian in space.",
+        personal_details:"Anousheh Ansari is an Iranian American Engineer and the co-founder of Prodea Systems. Ansari was the fourth self-funded tourist, the first self-funded woman to fly to the ISS,and the first Iranian in space.",
         image:flight_engineer
     }
 

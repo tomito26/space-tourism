@@ -9,10 +9,10 @@ const  Navbar = () => {
                 </div>
                 <div className='line'></div>
                 <ul>
-                    <li><NavLink className='navlink' to="/"><span>00</span><span>Home</span></NavLink></li>
-                    <li><NavLink className='navlink' to="/destination/"><span>01</span><span>Destination</span></NavLink></li>
-                    <li><NavLink className='navlink' to="/crew/"><span>02</span><span>Crew</span></NavLink></li>
-                    <li><NavLink className='navlink' to="/technology/"><span>03</span><span>Technology</span></NavLink></li>
+                    <li><NavLink className='navlink' style={({isActive})=>{return{borderBottom: isActive && "2px solid #fff"}}} to="/"><span><strong>00</strong>Home</span></NavLink></li>
+                    <li><NavLink className='navlink' style={({isActive})=>{return{borderBottom: isActive && "2px solid #fff"}}} to="/destination/"><span><strong>01</strong>Destination</span></NavLink></li>
+                    <li><NavLink className='navlink' style={({isActive})=>{return{borderBottom: isActive && "2px solid #fff"}}} to="/crew/"><span><strong>02</strong>Crew</span></NavLink></li>
+                    <li><NavLink className='navlink' style={({isActive})=>{return{borderBottom: isActive && "2px solid #fff"}}} to="/technology/"><span><strong>03</strong>Technology</span></NavLink></li>
                 </ul>
             </nav>
         </div>
